@@ -51,10 +51,8 @@ def button_is_pressed():
 
 while True:
     if button.value:
-        #print("next anim")
         num += 1
         if num > len(animations)-1:
-            #print(f"bak to start {num}")
             num = 0
         time.sleep(1)
-    animations[num].next_frame()#33:33 linenum:charnum!
+    animations[num].next_frame()
