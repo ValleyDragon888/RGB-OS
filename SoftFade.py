@@ -1,6 +1,6 @@
 #
 
-from van_animation_base_class import Animation
+from animation_base_class import Animation
 import time
 
 class SoftFade(Animation):
